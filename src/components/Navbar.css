@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.navbar h1 {
+    color: var(--dark-color);
+    padding-left: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li a {
+    color: var(--primary-dark-color);
+    padding: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: var(--secondary-color)
+}
